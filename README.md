@@ -1,5 +1,5 @@
 # frdecap
-Auto-decapitalization for pret/pokefirered
+Auto-decapitalization for pret/pokefirered. Tested on WSL2 Ubuntu 20.04 LTS
 
 ## Usage:
 
