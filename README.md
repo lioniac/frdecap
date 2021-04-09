@@ -33,3 +33,8 @@ Logging with time:
 ```
 clear;{ date;./decap.sh;date; }|tee -a output.txt
 ```
+
+
+## TODO
+- [WIP] Multi-thread version to speed up
+- Portable version (or at least Emerald version)
