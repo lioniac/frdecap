@@ -11,7 +11,7 @@ find ./data/ -depth -print |cpio -pvd BKP
 find ./src/  -depth -print |cpio -pvd BKP
 ```
 
-3. (Optional) Edit deca.sh to change/Add reserved words you DON'T want to decapitalize:
+3. (Optional) Edit `decap.sh` to change/add reserved words you DON'T want to decapitalize:
 ```
 (...)
 
