@@ -11,7 +11,17 @@ find ./data/ -depth -print |cpio -pvd BKP
 find ./src/  -depth -print |cpio -pvd BKP
 ```
 
-3. Execute (Run multiple times until you get no outputs):
+3. (Optional) Edit deca.sh to change/Add reserved words you DON'T want to decapitalize:
+```
+(...)
+
+##--- Vars
+RESERVED="HM HP HQ ID KO LR OK OT PA PC PP RS TM TV AKA DMA DNA GBA LOL NES RPG ZZZ NULL"
+
+(...)
+```
+
+4. Execute (Run multiple times until you get no outputs):
 
 Simple:
 ```
