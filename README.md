@@ -11,16 +11,14 @@ find ./data/ -depth -print |cpio -pvd BKP
 find ./src/  -depth -print |cpio -pvd BKP
 ```
 
-3. Execute:
+3. Execute (Run multiple times until you get no outputs):
 
-3.1. Simple:
-
+Simple:
 ```
 clear;./decap.sh
 ```
 
-3.2. Logging with time:
-
+Logging with time:
 ```
 clear;{ date;./decap.sh;date; }|tee -a output.txt
 ```
