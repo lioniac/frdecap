@@ -1,6 +1,6 @@
 # frdecap
 Auto-decapitalization for pret/pokefirered. Tested on WSL2 Ubuntu 20.04 LTS
-Sample results here: https://github.com/lioniac/pokefirered/compare/master...lioniac:decap
+Sample results here: https://github.com/lioniac/pokefirered/commit/8230c91da13db0453a3e041ea4ba782a5bddbdab
 
 ## Usage:
 
