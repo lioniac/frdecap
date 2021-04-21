@@ -27,6 +27,9 @@ decap () {
   RETURN=1
 
   # Special Cases (Outside of the loop for performance reasons):
+  grep -rn "_(\"S\")" {src,data} |grep -v "output.txt" |while IFS=: read -r file line content; do
+    sed -i "${line}s|_(\"S\")|_(\"s\")|g" $file
+  done 1>/dev/null
   grep -rn "_(\"IES\")" {src,data} |grep -v "output.txt" |while IFS=: read -r file line content; do
     sed -i "${line}s|_(\"IES\")|_(\"ies\")|g" $file
   done 1>/dev/null
